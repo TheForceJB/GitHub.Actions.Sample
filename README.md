@@ -24,17 +24,6 @@ $ cd src/env
 $ . init_env_vars.sh
 ```
 
-### 4. Initialize credential resource file
-
-The credential resource file is gitignored. Make sure you create one to store the credentials like following.
-
-```s
-$ touch src/env/local/credentials.robot
-$ echo "*** Variables ***" > credentials.robot
-$ echo "\${ID}    xxxxxx" >> credentials.robot
-$ echo "\${PWD}    xxxxxx" >> credentials.robot
-```
-
 ## Run on Docker
 
 ```s
