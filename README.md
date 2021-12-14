@@ -30,3 +30,5 @@ $ . init_env_vars.sh
 $ docker build --no-cache -t robot-sample -f ./docker/dockerfile .
 $ docker run -it --rm --shm-size=2gb robot-sample:latest sh
 ```
+
+sdfdsfdfs
